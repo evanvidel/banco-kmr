@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BancoMR">
-        <activity android:name=".SaldoActivity"></activity>
+        <activity android:name=".PoupancaActivity"></activity>
+        <activity android:name=".TranferenciaActivity" />
+        <activity android:name=".FaturasActivity" />
+        <activity android:name=".SaldoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

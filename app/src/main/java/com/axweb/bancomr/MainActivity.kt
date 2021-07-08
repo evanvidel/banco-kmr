@@ -19,5 +19,20 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+        binding.faturas.setOnClickListener {
+            val intent = Intent(this, FaturasActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.transferencia.setOnClickListener {
+            val intent = Intent(this, TranferenciaActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+        binding.poupanca.setOnClickListener {
+            val intent = Intent(this, PoupancaActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
